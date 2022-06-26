@@ -9,10 +9,14 @@ local Title = Instance.new("TextLabel")
 local ScriptsFrame = Instance.new("Frame")
 local InfiniteYeild = Instance.new("TextButton")
 local OpenGUI = Instance.new("TextButton")
-local OpenGUI_2 = Instance.new("TextButton")
+local Invisible = Instance.new("TextButton")
+local R6 = Instance.new("TextButton")
+local WalkspeedandJumppower = Instance.new("TextButton")
 local Rejoin = Instance.new("TextButton")
 local Respawn = Instance.new("TextButton")
-local About = Instance.new("TextLabel")
+local InfoFrame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local InfoText = Instance.new("TextLabel")
 
 --Properties:
 
@@ -31,7 +35,7 @@ Title.Parent = MainFrame
 Title.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 Title.Size = UDim2.new(0, 712, 0, 38)
 Title.Font = Enum.Font.Gotham
-Title.Text = "Mando Hub | by MandoReplys"
+Title.Text = "Mando Hub | V1.0"
 Title.TextColor3 = Color3.fromRGB(0, 0, 127)
 Title.TextSize = 18.000
 
@@ -52,8 +56,8 @@ InfiniteYeild.TextColor3 = Color3.fromRGB(0, 0, 0)
 InfiniteYeild.TextSize = 14.000
 InfiniteYeild.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
+end
+)
 
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = ScriptsFrame
@@ -3112,6 +3116,248 @@ OpenGUI.MouseButton1Down:connect(function()
 end)
 
 
+Invisible.Name = "Invisible"
+Invisible.Parent = ScriptsFrame
+Invisible.BackgroundColor3 = Color3.fromRGB(66, 67, 62)
+Invisible.Position = UDim2.new(0, 0, 0.233766228, 0)
+Invisible.Size = UDim2.new(0, 174, 0, 24)
+Invisible.Font = Enum.Font.SourceSans
+Invisible.Text = "Invisible"
+Invisible.TextColor3 = Color3.fromRGB(0, 0, 0)
+Invisible.TextSize = 14.000
+Invisible.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+end)
+
+
+
+R6.Name = "R6"
+R6.Parent = ScriptsFrame
+R6.BackgroundColor3 = Color3.fromRGB(66, 67, 62)
+R6.Position = UDim2.new(0, 0, 0.337662339, 0)
+R6.Size = UDim2.new(0, 174, 0, 24)
+R6.Font = Enum.Font.SourceSans
+R6.Text = "R6"
+R6.TextColor3 = Color3.fromRGB(0, 0, 0)
+R6.TextSize = 14.000
+R6.MouseButton1Down:connect(function()
+	-- Made by Izekai
+
+	-- Instances:
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local R6 = Instance.new("TextButton")
+	local TextButton = Instance.new("TextButton")
+
+	--Properties:
+
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	R6.Name = "R6"
+	R6.Parent = ScreenGui
+	R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	R6.Position = UDim2.new(-0.000343383319, 0, 0.32815966, 0)
+	R6.Size = UDim2.new(0, 29, 0, 29)
+	R6.Font = Enum.Font.SourceSans
+	R6.Text = "R6"
+	R6.TextColor3 = Color3.fromRGB(0, 0, 0)
+	R6.TextSize = 14.000
+	R6.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/jHGVauVX'),true))()
+	end)
+
+	TextButton.Parent = ScreenGui
+	TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton.Position = UDim2.new(0, 0, 0.414634138, 0)
+	TextButton.Size = UDim2.new(0, 72, 0, 27)
+	TextButton.Font = Enum.Font.SourceSans
+	TextButton.Text = "Respawn"
+	TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextButton.TextSize = 14.000
+	TextButton.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/ukFZuXbb'),true))()
+	end)
+
+end)
+
+WalkspeedandJumppower.Name = "Walkspeed and Jumppower"
+WalkspeedandJumppower.Parent = ScriptsFrame
+WalkspeedandJumppower.BackgroundColor3 = Color3.fromRGB(66, 67, 62)
+WalkspeedandJumppower.Position = UDim2.new(0, 0, 0.44155845, 0)
+WalkspeedandJumppower.Size = UDim2.new(0, 174, 0, 24)
+WalkspeedandJumppower.Font = Enum.Font.SourceSans
+WalkspeedandJumppower.Text = "Walkspeed and Jumppower"
+WalkspeedandJumppower.TextColor3 = Color3.fromRGB(0, 0, 0)
+	WalkspeedandJumppower.TextSize = 14.000
+WalkspeedandJumppower.MouseButton1Down:connect(function()
+	--Made by Caleb#4844, V3RM Username: PingasForDays
+
+	-- Instances:
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local Main = Instance.new("Frame")
+	local JP = Instance.new("TextButton")
+	local WS = Instance.new("TextButton")
+	local Close = Instance.new("TextButton")
+	local Open = Instance.new("TextButton")
+	local Secondary = Instance.new("Frame")
+	local Credits = Instance.new("TextLabel")
+	local HJ = Instance.new("TextButton")
+	local NJ = Instance.new("TextButton")
+
+	--Properties:
+
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+	Main.Archivable = false
+	Main.Name = "Main"
+	Main.Parent = ScreenGui
+	Main.BackgroundColor3 = Color3.new(0.333333, 0.333333, 1)
+	Main.BorderColor3 = Color3.new(0, 0, 0)
+	Main.BorderSizePixel = 4
+	Main.Position = UDim2.new(0.8815521, 0, 0.510634422, 0)
+	Main.Size = UDim2.new(0, 142, 0, 88)
+	Main.Visible = false
+
+	JP.Name = "JP"
+	JP.Parent = Main
+	JP.BackgroundColor3 = Color3.new(1, 1, 1)
+	JP.BorderColor3 = Color3.new(0, 0, 0)
+	JP.BorderSizePixel = 2
+	JP.Position = UDim2.new(0.0584205762, 0, 0.556839824, 0)
+	JP.Size = UDim2.new(0, 89, 0, 26)
+	JP.Font = Enum.Font.Cartoon
+	JP.Text = "Walk"
+	JP.TextColor3 = Color3.new(0, 0, 0)
+	JP.TextSize = 14
+
+	WS.Name = "WS"
+	WS.Parent = Main
+	WS.BackgroundColor3 = Color3.new(1, 1, 1)
+	WS.BorderColor3 = Color3.new(0, 0, 0)
+	WS.BorderSizePixel = 2
+	WS.Position = UDim2.new(0.0584205166, 0, 0.142174095, 0)
+	WS.Size = UDim2.new(0, 89, 0, 26)
+	WS.Font = Enum.Font.Cartoon
+	WS.Text = "Run"
+	WS.TextColor3 = Color3.new(0, 0, 0)
+	WS.TextSize = 14
+
+	Close.Name = "Close"
+	Close.Parent = Main
+	Close.BackgroundColor3 = Color3.new(1, 0, 0)
+	Close.BorderColor3 = Color3.new(0, 0, 0)
+	Close.BorderSizePixel = 4
+	Close.Position = UDim2.new(0.764779091, 0, 0, 0)
+	Close.Size = UDim2.new(0, 33, 0, 31)
+	Close.Font = Enum.Font.Cartoon
+	Close.Text = "X"
+	Close.TextColor3 = Color3.new(0, 0, 0)
+	Close.TextScaled = true
+	Close.TextSize = 14
+	Close.TextWrapped = true
+
+	Open.Name = "Open"
+	Open.Parent = ScreenGui
+	Open.BackgroundColor3 = Color3.new(0.333333, 0.333333, 1)
+	Open.BorderColor3 = Color3.new(0, 0, 0)
+	Open.BorderSizePixel = 0
+	Open.Position = UDim2.new(0.929271698, 0, 0.952224016, 0)
+	Open.Size = UDim2.new(0, 96, 0, 29)
+	Open.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+	Open.Font = Enum.Font.Cartoon
+	Open.Text = "Open"
+	Open.TextColor3 = Color3.new(0, 0, 0)
+	Open.TextSize = 14
+
+	Secondary.Name = "Secondary"
+	Secondary.Parent = ScreenGui
+	Secondary.BackgroundColor3 = Color3.new(0.333333, 0.333333, 1)
+	Secondary.BorderColor3 = Color3.new(0, 0, 0)
+	Secondary.BorderSizePixel = 4
+	Secondary.Position = UDim2.new(0.881379008, 0, 0.698134422, 0)
+	Secondary.Size = UDim2.new(0, 142, 0, 88)
+	Secondary.Visible = false
+
+	Credits.Name = "Credits"
+	Credits.Parent = Secondary
+	Credits.BackgroundColor3 = Color3.new(0.333333, 0.333333, 1)
+	Credits.BorderSizePixel = 0
+	Credits.Position = UDim2.new(-0.00166522153, 0, 0.825234652, 0)
+	Credits.Size = UDim2.new(0, 113, 0, 15)
+	Credits.Font = Enum.Font.Cartoon
+	Credits.Text = "Made by Caleb#4844"
+	Credits.TextColor3 = Color3.new(0, 0, 0)
+	Credits.TextScaled = true
+	Credits.TextSize = 14
+	Credits.TextWrapped = true
+
+	HJ.Name = "HJ"
+	HJ.Parent = Secondary
+	HJ.BackgroundColor3 = Color3.new(1, 1, 1)
+	HJ.BorderColor3 = Color3.new(0, 0, 0)
+	HJ.BorderSizePixel = 2
+	HJ.Position = UDim2.new(0.0600852445, 0, 0.0795454532, 0)
+	HJ.Size = UDim2.new(0, 88, 0, 26)
+	HJ.Font = Enum.Font.Cartoon
+	HJ.Text = "High Jump"
+	HJ.TextColor3 = Color3.new(0, 0, 0)
+	HJ.TextSize = 14
+
+	NJ.Name = "NJ"
+	NJ.Parent = Secondary
+	NJ.BackgroundColor3 = Color3.new(1, 1, 1)
+	NJ.BorderColor3 = Color3.new(0, 0, 0)
+	NJ.BorderSizePixel = 2
+	NJ.Position = UDim2.new(0.0600852445, 0, 0.522727251, 0)
+	NJ.Size = UDim2.new(0, 88, 0, 26)
+	NJ.Font = Enum.Font.Cartoon
+	NJ.Text = "Normal Jump"
+	NJ.TextColor3 = Color3.new(0, 0, 0)
+	NJ.TextSize = 14
+
+	--Open / Close function
+
+	Open.MouseButton1Down:Connect(function()
+		Main.Visible = true
+		Secondary.Visible = true
+		Open.Visible = false
+	end)
+
+	Close.MouseButton1Down:Connect(function()
+		Main.Visible = false
+		Secondary.Visible = false
+		Open.Visible = true
+	end)
+
+	--End of function
+
+	--Run
+
+	WS.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 128
+	end)
+
+	--Walk
+
+	JP.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end)
+
+	--High Jump
+
+	HJ.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+	end)
+
+	--Normal Jump
+
+	NJ.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end)
+end)
+
 Rejoin.Name = "Rejoin"
 Rejoin.Parent = MainFrame
 Rejoin.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
@@ -3134,24 +3380,27 @@ Respawn.Font = Enum.Font.SourceSans
 Respawn.Text = "Respawn"
 Respawn.TextColor3 = Color3.fromRGB(0, 0, 0)
 Respawn.TextSize = 14.000
-Respawn.MouseButton1Down:connect(function()
-	game.Players.PlayerAdded:connect(function(plr)
-		plr.CharacterAdded:connect(function(chr)
-			repeat wait() until chr.Humanoid
-			chr.Humanoid.Died:connect(function()
-			plr:LoadCharacter()
-		end)
-	end)
-end)
-end)
 
-About.Name = "About"
-About.Parent = MainFrame
-About.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-About.BackgroundTransparency = 1.000
-About.Position = UDim2.new(0.244382024, 0, 0.91461724, 0)
-About.Size = UDim2.new(0, 70, 0, 24)
-About.Font = Enum.Font.Code
-About.Text = "Welcome"
-About.TextColor3 = Color3.fromRGB(255, 255, 255)
-About.TextSize = 14.000
+InfoFrame.Name = "InfoFrame"
+InfoFrame.Parent = MainFrame
+InfoFrame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+InfoFrame.Position = UDim2.new(0.370786518, 0, 0.180851057, 0)
+InfoFrame.Size = UDim2.new(0, 438, 0, 193)
+
+ImageLabel.Parent = InfoFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 438, 0, 193)
+ImageLabel.Image = "https://www.roblox.com/asset/?id=10030631982"
+
+InfoText.Name = "InfoText"
+InfoText.Parent = InfoFrame
+InfoText.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+InfoText.BackgroundTransparency = 0.500
+InfoText.Position = UDim2.new(0.16438356, 0, 0.295336783, 0)
+InfoText.Size = UDim2.new(0, 294, 0, 79)
+InfoText.Font = Enum.Font.Nunito
+InfoText.Text = "IMPORTANT: I did not make these scripts, all rights go to their owner, I only made the GUI and all i did is add other scripts to the gui"
+InfoText.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfoText.TextScaled = true
+InfoText.TextSize = 14.000
+InfoText.TextWrapped = true
